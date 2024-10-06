@@ -20,9 +20,9 @@
               <button type="submit" class="submit-btn">Login</button>
             </form>
             <form id="register-form" style="display: none;">
-              <input type="text" placeholder="Username" required>
-              <input type="email" placeholder="Email" required>
-              <input type="password" placeholder="Password" required>
+              <input type="text" placeholder="Username" name="username" required>
+              <input type="email" placeholder="Email" name="useremail" required>
+              <input type="password" placeholder="Password" name="userpassword" required>
               <button type="submit" class="submit-btn">Register</button>
             </form>
           </div>
