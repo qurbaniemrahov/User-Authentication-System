@@ -19,10 +19,10 @@
               <input type="password" placeholder="Password" required>
               <button type="submit" class="submit-btn">Login</button>
             </form>
-            <form id="register-form" style="display: none;">
-              <input type="text" placeholder="Username" name="username" required>
-              <input type="email" placeholder="Email" name="useremail" required>
-              <input type="password" placeholder="Password" name="userpassword" required>
+            <form action="../app/Controllers/form_controller.php" method="POST" id="register-form" style="display: none;">
+              <input type="text" name="username" placeholder="Username" name="username" required>
+              <input type="email" name="email" placeholder="Email" name="useremail" required>
+              <input type="password" name="password" placeh older="Password" name="userpassword" required>
               <button type="submit" class="submit-btn">Register</button>
             </form>
           </div>
