@@ -12,12 +12,6 @@ if ($conn) {
             reg_date TIMESTAMP
         )";
 
-        $sql = "CREATE TABLE form_login (
-    id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-    email VARCHAR(50),
-    password VARCHAR(255) NOT NULL,
-    reg_date TIMESTAMP
-)";
 
 
         $conn->exec($sql);
