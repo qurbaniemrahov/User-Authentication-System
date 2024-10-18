@@ -16,11 +16,11 @@
         <button class="toggle-btn" id="register-btn">Register</button>
       </div>
       <div class="form-wrapper">
-        <!-- <form action="" method="" id="login-form">
+        <form action="../app/Controllers/form_controller.php" method="POST" id="login-form">
           <input type="email" name="email" placeholder="Email" required>
           <input type="password" name="password" placeholder="Password" required>
           <button name="login" type="submit" class="submit-btn">Login</button>
-        </form> -->
+        </form>
         <form action="../app/Controllers/form_controller.php" method="post" id="register-form">
     <input type="text" name="username" placeholder="Username">
     <input type="email" name="email" placeholder="Email">
